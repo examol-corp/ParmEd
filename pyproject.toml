@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ParmEd"
+version = "4.3.0"
+readme = "README.md"
+dependencies = [
+    "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = "parmed"
